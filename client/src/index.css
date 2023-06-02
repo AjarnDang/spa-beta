@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, #root, .App, .content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.right-button-header {
+  text-align: right;
+  margin-top: 0;
+}
+
+.span-user-id {
+  padding-left: 10px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.qrcode-image {
+  width: 500px;
+}
+
+@media only screen and (max-width: 993px) {
+  .right-button-header {
+    text-align: left;
+  }
+  .right-button-import {
+    padding: 0 !important;
+  }
+  .span-h1 {
+    display: block;
+  }
+  .span-user-id {
+    padding-left: 0;
+  }
+  .img-wrapper {
+    text-align: center;
+  }
+  .img-fluid {
+    width: 60%;
+  }
+
+  .qrcode-image {
+    width: 100%;
+  }
+}
+
+
+.button-logout span::before {
+  display: none;
+}
+
+.button-logout span::after {
+  display: none;
+}
